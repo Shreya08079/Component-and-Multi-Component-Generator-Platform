@@ -2,25 +2,25 @@
 
 ```mermaid
 graph TD
-  subgraph Frontend (Next.js + React)
-    A[Login/Signup Page]
-    B[Dashboard]
-    C[SessionList]
-    D[ChatPanel]
-    E[PropertyEditor]
-    F[CodeTabs]
-    G[Live Preview (iframe)]
-    H[Settings Page]
+  subgraph "Frontend (Next.js + React)"
+    A["Login/Signup Page"]
+    B["Dashboard"]
+    C["SessionList"]
+    D["ChatPanel"]
+    E["PropertyEditor"]
+    F["CodeTabs"]
+    G["Live Preview (iframe)"]
+    H["Settings Page"]
   end
 
-  subgraph Backend (Express API)
-    I[Auth Endpoints]
-    J[Session Endpoints]
-    K[AI Generation Endpoint]
-    L[User/Profile Endpoints]
-    M[Redis Cache]
-    N[MongoDB]
-    O[OpenRouter LLM API]
+  subgraph "Backend (Express API)"
+    I["Auth Endpoints"]
+    J["Session Endpoints"]
+    K["AI Generation Endpoint"]
+    L["User/Profile Endpoints"]
+    M["Redis Cache"]
+    N["MongoDB"]
+    O["OpenRouter LLM API"]
   end
 
   A-->|JWT|I
