@@ -3,7 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [],
+    unoptimized: true, // Required for static export
   },
+  trailingSlash: true, // Helps with Netlify routing
+  output: 'export', // Enable static export for Netlify
   async rewrites() {
     return [
       {
