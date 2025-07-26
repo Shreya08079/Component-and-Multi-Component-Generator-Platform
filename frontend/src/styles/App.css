@@ -1,0 +1,16 @@
+/* Ported from Vite React App.css. You may want to review for className usage in migrated components. */
+
+/* Example content, replace with your actual App.css content from Vite app */
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f8fafc;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Add more styles as needed */
