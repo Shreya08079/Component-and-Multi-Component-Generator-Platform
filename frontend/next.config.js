@@ -8,7 +8,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://component-and-multi-component-generator.onrender.com',
+        destination: 'https://component-and-multi-component-generator.onrender.com/api/:path*',
       },
     ];
   },
